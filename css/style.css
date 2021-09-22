@@ -43,9 +43,10 @@ header ul
 header
 {
     background: #ffffff;
+    background-blend-mode:screen;
     color: black;
-    padding-top: 30px;
-    min-height: 70px;
+    padding-top: 5px;
+    min-height: 50px;
 }
 
 header a
@@ -94,9 +95,10 @@ header a:hover
 /* Showcase */
 #showcase
 {
-    min-height: 500px;
+    min-height: 900px;
     background: url('../img/top-of-mt-washington.jpg') no-repeat 0 -400px;
     background-size: 100%;
+    
 }
 
 /* Newsletter */
@@ -177,11 +179,10 @@ ul#services li
 
 footer
 {
-    padding: 20px;
-    margin-top: 20px;
     text-align: center;
     color: #ffffff;
     background-color: #aaddf2;
+    background-size: 100%;
 }
 
 /* Media Queries */
